@@ -1,0 +1,1 @@
+WIP angular app to show your favourite georeference coordinates in a map
