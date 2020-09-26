@@ -1,0 +1,11 @@
+<div class="parent">
+  <div class="left-side">
+    <app-map (position)="handlePosition($event)"></app-map>
+  </div>
+
+  <div class="right-side">
+    <div *ngFor="let place of places">
+      <mat-card>{{place}}</mat-card>
+    </div>
+  </div>
+</div>
