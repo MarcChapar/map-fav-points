@@ -23,7 +23,10 @@ import { MatCardModule } from '@angular/material/card'
     BrowserAnimationsModule,
     MatToolbarModule,
     GoogleMapsModule,
-    MatCardModule
+    MatCardModule,
+    AgmCoreModule.forRoot({
+      apiKey: 'AIzaSyCblvP3lZasna_jYxXlUDyk52mMJV4f2ts'
+    })
   ],
   providers: [],
   bootstrap: [AppComponent]
